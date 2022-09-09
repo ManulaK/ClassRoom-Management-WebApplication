@@ -32,3 +32,6 @@ mongoose
 //http://localhost:8070/studnts
 app.use("/students", studentRouter);
 
+app.listen(PORT, () => {
+  console.log(`🚀 Server is up and Running on port Number ${PORT}`);
+});
