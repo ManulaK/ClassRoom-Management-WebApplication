@@ -35,4 +35,3 @@ app.use("/students", studentRouter);
 app.listen(PORT, () => {
   console.log(`🚀 Server is up and Running on port Number ${PORT}`);
 });
-
